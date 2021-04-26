@@ -11,7 +11,7 @@ import (
 	"os/exec"
 	"time"
 
-	"github.com/labstack/echo"
+	"github.com/labstack/echo/v4"
 )
 
 var CMD = exec.Command("python3", "smblistener/impacket_smb/smb.py")
